@@ -11,6 +11,24 @@ This project is a full-stack web application designed to function as a mini-blog
 | Web Server & Logging | Nginx |
 | Database     | MySQL (Docker) |
 | Hosting      | Self-hosted on my laptop
+
+## Structure
+- Home
+  - Introduction as a Full-Stack Developer.
+  - The latest project
+  - The latest blog post
+  - Contact
+- About Me
+  - My journey from Motion Graphics → Full-Stack Dev
+  - Education, skills, tools, experience
+- Projects 
+  - Show all projects with 
+    - Images
+    - Descriptions
+    - Links to GitHub & Live Demo
+- Blog
+  - A space to write your thoughts & learning journey
+
 ## Features
 - **Mini-blog format** with CRUD functionality
 - **Self-hosted** on my laptop, acting as the server and database

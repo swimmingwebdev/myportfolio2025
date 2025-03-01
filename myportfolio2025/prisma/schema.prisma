@@ -13,8 +13,13 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Post {
-  id      Int     @id @default(autoincrement())
-  title   String
-  content String
+model Project {
+  id          String   @id @default(cuid())
+  title       String
+  description String   @db.Text
+  technologies Json
+  githubLink  String?
+  liveLink    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 }

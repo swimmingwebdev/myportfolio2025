@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ProjectCard from '@/components/project-card';
+import ProjectCard from 'app/components/project-card';
 
 // Sample project data (hardcoded for now)
 const projects = [
